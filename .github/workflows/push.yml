@@ -55,7 +55,7 @@ jobs:
       with:
         push: true
         tags: |
-          ${{env.VERSION_TAG}}
-          ${{env.LASTEST_TAG}}
+            golang-pipeline:          
+            1.0.0
         build-args: |
-          ${{steps.version_step.outputs.version}}
+          VERSION=1.0.0
