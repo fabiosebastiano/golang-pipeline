@@ -21,5 +21,4 @@ jobs:
     steps:
       - name: DEBUG
         run: |
-          echo ${{secrets.DOCKERHUB_USERNAME}}
-          echo ${{secrets.DOCKERHUB_TOKEN}}
+          echo ${{secrets.GITHUB_TOKEN}}
