@@ -62,7 +62,6 @@ jobs:
       with:
         push: true
         tags: |
-            golang-pipeline:          
-            1.0.0
+            golang-pipeline:1.0.0
         build-args: |
           VERSION=1.0.0
